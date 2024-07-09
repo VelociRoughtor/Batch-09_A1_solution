@@ -47,7 +47,41 @@ body{
 .section-container{
     width: 803px;
     height: 806px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 90px;
+}
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-content h1{
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.section-content p{
+    color:red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.image-container{
+    width: 803px;
+    height: 500px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
 }
